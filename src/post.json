@@ -1,0 +1,17 @@
+[
+    {
+        "title": "tutorial belajar react",
+        "tags": ["react", "frontend"],
+        "date": "2023-01-01"
+    },
+    {
+        "title": "tutorial belajar laravel",
+        "tags": ["laravel", "backend"],
+        "date": "2023-01-02"
+    },
+    {
+        "title": "tutorial belajar vue",
+        "tags": ["vue", "frontend"],
+        "date": "2023-01-03"
+    }
+]
