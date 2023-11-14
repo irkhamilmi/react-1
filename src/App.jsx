@@ -1,11 +1,19 @@
 import './App.css'
-import Homepage from './pages/inedx'
+import { Globalcontext } from './context';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './routers';
 
 function App() {
+   const user = {
+    username: "kamto",
+   }
+
   return (
-    
     <div className='App'>
-    <Homepage/>
+      <Globalcontext.Provider value={user}>
+      <RouterProvider router={router}/>
+      </Globalcontext.Provider>
+    
     </div>
   );
 }
